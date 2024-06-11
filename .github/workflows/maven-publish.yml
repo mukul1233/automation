@@ -17,8 +17,6 @@ jobs:
         java-version: 14
 
     - name: Build project with Maven
-      run: mvn -B package --file pom.xml
-    - name: Build with Maven
       run:  mvn -P ExecuteTestSuite test
 
 
