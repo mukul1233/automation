@@ -34,8 +34,6 @@ public class test extends base {
 
         String verifyBrowserStackTitle = driver.getTitle();
         assertEquals("Most Reliable App & Cross Browser Testing Platform | BrowserStack",verifyBrowserStackTitle);
-        assertEquals("Most Reliable App & Cross Browser Testing Platform | BrowserStack",verifyBrowserStackTitle);
-
     }
 
     @Test
