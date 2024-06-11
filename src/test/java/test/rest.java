@@ -10,7 +10,6 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
-import org.json.JSONObject;
 
 import java.io.File;
 import java.io.IOException;
