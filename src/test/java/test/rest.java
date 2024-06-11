@@ -9,8 +9,6 @@ import io.restassured.config.RestAssuredConfig;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-
-
 import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;

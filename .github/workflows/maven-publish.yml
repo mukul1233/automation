@@ -21,6 +21,4 @@ jobs:
     - name: Build with Maven
       run:  mvn -P ExecuteTestSuite test
 
-    - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
 
