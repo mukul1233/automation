@@ -58,14 +58,7 @@ public class test extends base {
         driver.navigate().to("https://demo.guru99.com/");
         emailID= driver.findElement(By.xpath("//input[@name='emailid']"));
         emailID.sendKeys("milei.cjaihan@gmail.com", Keys.ENTER);
-        TakesScreenshot screenshot=(TakesScreenshot) driver;
-        File srcFile= screenshot.getScreenshotAs(OutputType.FILE);
-        File file= new File("C:\\Users\\mukul\\Downloads\\abc.jpg");
-        try {
-            Files.copy(srcFile.toPath(),file.toPath());
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+
     }
 
     @Test
