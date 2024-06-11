@@ -34,6 +34,7 @@ public class test extends base {
 
         String verifyBrowserStackTitle = driver.getTitle();
         assertEquals("Most Reliable App & Cross Browser Testing Platform | BrowserStack",verifyBrowserStackTitle);
+        assertEquals("Most Reliable App & Cross Browser Testing Platform | BrowserStack",verifyBrowserStackTitle);
 
     }
 
@@ -41,6 +42,7 @@ public class test extends base {
     public void bookDemo() throws InterruptedException {
         bookDemoButton= driver.findElement(By.cssSelector("div.btn-text"));
         bookDemoButton.click();
+
         emailInput=driver.findElement(By.xpath("(//input[@id='demo-fc-email'])[1]"));
         emailInput.sendKeys("abc@xyz.com");
         submitEmail=driver.findElement(By.xpath("(//input[@id='demo-fc-submit'])[1]"));
