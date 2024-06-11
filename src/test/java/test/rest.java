@@ -25,15 +25,15 @@ public class rest {
 
     static final String url = "http://demo.guru99.com/V4/sinkministatement.php?CUSTOMER_ID=68195&PASSWORD=1234!&Account_No=1";
 
-//    @Test
-//    public void testGet() {
-//        RestAssured
-//                .get("http://my-api.com/resource/123")
-//                .then()
-//                .assertThat()
-//                .statusCode(200)
-//                .body("id", equalTo(123));
-//    }
+    @Test
+    public void testGet() {
+        RestAssured
+                .get("http://my-api.com/resource/123")
+                .then()
+                .assertThat()
+                .statusCode(200)
+                .body("id", equalTo(123));
+    }
 
     @Test
     public void testGet_1() {
